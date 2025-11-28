@@ -40,7 +40,14 @@ const Testimonials: React.FC = () => {
                </p>
             </div>
 
-            <div className="mt-8 pt-8 border-t border-white/10 text-center">
+            <div className="mt-8 pt-8 border-t border-white/10 flex flex-col items-center text-center">
+              <div className="w-16 h-16 rounded-full overflow-hidden mb-4 bg-zinc-800 border-2 border-lime-400/20">
+                <img 
+                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&h=150" 
+                  alt="Albertson Cooper" 
+                  className="w-full h-full object-cover grayscale" 
+                />
+              </div>
               <h4 className="text-xl font-medium text-white">Albertson Cooper</h4>
               <p className="text-sm text-gray-500">Project Manager</p>
             </div>

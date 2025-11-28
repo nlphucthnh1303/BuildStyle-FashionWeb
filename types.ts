@@ -2,6 +2,7 @@ export interface ServiceItem {
   id: number;
   title: string;
   hasProfileImage?: boolean;
+  imageUrl?: string;
 }
 
 export interface PricingPlan {
